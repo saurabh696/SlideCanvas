@@ -20,6 +20,13 @@
     height: 500px;
 }
 
+#slideNew{
+    border-style: groove;
+    height: 500px;
+}
+
+
+
 .changeFont{
     border: solid;
     position: absolute;
@@ -59,4 +66,26 @@
 
 .link-video{
     position:absolute;
+}
+
+.carousel-control-prev{
+    top:250px;
+  
+}
+
+.carousel-control-next{
+    top:250px;
+   
+}
+
+.carousel-inner {
+    position: static !important;
+}
+
+.carousel {
+    position: static !important;
+}
+
+.carousel-item {
+    position: static !important;
 }

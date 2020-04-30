@@ -161,10 +161,12 @@ function backgroundColorPick(){
 		colorInput1.click();
 		let colorPicker = document.querySelector('#colorInput1');
 		let canvas=document.querySelector('#canvas');
+		let slideNew=document.querySelector('#slideNew');
 		colorPicker.addEventListener('input', ()=>{
 			let color = colorPicker.value;
 			console.log(color);
 			canvas.style.background=color;
+			slideNew.style.background=color;
 		});
 		
 }
