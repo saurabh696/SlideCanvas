@@ -16,6 +16,7 @@ const colorInput1 =  document.getElementById("colorInput1");
 const imgTools=document.getElementById("run");
 const checkFileVideo=document.getElementById('fileVideo');
 
+
 uploadFile.addEventListener("change", checkFile);
 checkFileVideo.addEventListener("change", checkfilevideo);
 
